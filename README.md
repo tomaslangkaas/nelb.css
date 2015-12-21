@@ -110,3 +110,16 @@ html, body, .fullheight{
   </body>
 </html>
 ```
+
+### Share available horizontal space
+
+```css
+.float{
+  float: left;
+}
+
+.bfc{
+  overflow: hidden;
+  zoom: 1;
+}
+```
