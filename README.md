@@ -31,7 +31,7 @@ html, body, .fullheight{
 * Beware of markup whitespace between inline blocks
 * Use `vertical-align` to keep elements aligned
 * IE6+
-* See [Understanding the `HTML` versus `BODY` Element in CSS](http://phrogz.net/css/htmlvsbody.html)
+* See [Cross-Browser Inline-Block](https://css-tricks.com/snippets/css/cross-browser-inline-block/) at css-tricks.com
 
 ```css
 .inlineblock{
