@@ -68,3 +68,48 @@ html, body, .fullheight{
 </html>
 ```
 
+### Vertically centered block element
+
+* Solution for all element dimensions
+* Requires preceding ghost element
+* IE6+
+* See [Centering in the Unknown](https://css-tricks.com/centering-in-the-unknown/) at css-tricks.com
+
+```css
+.middlealign{
+  vertical-align: middle;
+}
+
+.centeralign{
+  text-align: center;
+}
+
+.font0{
+  font-size: 0;
+}
+
+.inlineblock{
+  display: inline-block;
+  zoom: 1; /* trigger hasLayout in old IE */
+  *display: inline; /* star hack requierd for block elements in old IE */
+}
+
+html, body, .fullheight{
+  height: 100%;
+  margin: 0;
+}
+```
+
+````html
+<!doctype html>
+<html>
+  <body>
+    <div class="fullheight centeralign">
+      <div class="inlineblock fullheight middlealign nullfont"></div>
+      <div class="inlineblock middlealign">
+        This is centered vertically and horizontally in the viewport.
+      </div>
+    </div>
+  </body>
+</html>
+```
