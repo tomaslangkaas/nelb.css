@@ -105,7 +105,7 @@ html, body, .fullheight{
 <html>
   <body>
     <div class="fullheight centeralign">
-      <div class="inlineblock fullheight middlealign nullfont"></div>
+      <div class="inlineblock fullheight middlealign font0"></div>
       <div class="inlineblock middlealign">
         This is centered vertically and horizontally in the viewport.
       </div>
