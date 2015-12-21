@@ -6,6 +6,7 @@ no explorer left behind
 * Requires height to be set on `<html>` and `<body>`
 * Requires element with class `fullheight` to be a child of `<body>`
 * IE6+
+* See [Understanding the `HTML` versus `BODY` Element in CSS](http://phrogz.net/css/htmlvsbody.html)
 
 ```css
 html, body, .fullheight{
