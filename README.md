@@ -72,6 +72,7 @@ html, body, .fullheight{
 
 * Solution for all element dimensions
 * Requires preceding ghost element
+* Avoid markup whitespace between ghost element and centered element
 * IE6+
 * See [Centering in the Unknown](https://css-tricks.com/centering-in-the-unknown/) at css-tricks.com
 
@@ -82,10 +83,6 @@ html, body, .fullheight{
 
 .centeralign{
   text-align: center;
-}
-
-.font0{
-  font-size: 0;
 }
 
 .inlineblock{
@@ -105,8 +102,8 @@ html, body, .fullheight{
 <html>
   <body>
     <div class="fullheight centeralign">
-      <div class="inlineblock fullheight middlealign font0"></div>
-      <div class="inlineblock middlealign">
+      <div class="inlineblock fullheight middlealign"></div
+      ><div class="inlineblock middlealign">
         This is centered vertically and horizontally in the viewport.
       </div>
     </div>
