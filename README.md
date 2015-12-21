@@ -119,7 +119,78 @@ html, body, .fullheight{
 }
 
 .bfc{
-  overflow: hidden;
-  zoom: 1;
+  overflow: hidden; /* create new block formatting context */
+  zoom: 1; /* trigger hasLayout in old IE */
 }
 ```
+
+#### Group three buttons on one line
+```css
+.onethird{
+  width: 33.33%;
+}
+
+.fullwidth{
+  width: 100%;
+}
+```
+
+````html
+<!doctype html>
+<html>
+  <body>
+    <div>
+      <div class="float onethird">
+        <button class="fullwidth">Left</button>
+      </div>
+      <div class="float onethird">
+        <button class="fullwidth">Middle</button>
+      </div>
+      <div class="bfc">
+        <button class="fullwidth">Right</button>
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+#### Left-aligned, centered and right-aligned text on the same line
+```css
+.onethird{
+  width: 33.33%;
+}
+
+.left{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+```
+
+````html
+<!doctype html>
+<html>
+  <body>
+    <div>
+      <div class="float onethird left">
+        Left
+      </div>
+      <div class="float onethird center">
+        Centered
+      </div>
+      <div class="bfc right">
+        Right
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+#### Search box
+#### Checklist
