@@ -3,17 +3,19 @@ no explorer left behind
 
 ### Full viewport height
 
-* Requires height to be set on <html> and <body>
-* Requires requires element with class `fullheight` to be a child of <body>
+* Requires height to be set on `<html>` and `<body>`
+* Requires element with class `fullheight` to be a child of `<body>`
 * IE6+
 
 ```css
 html, body, .fullheight{
   height: 100%;
+  margin: 0;
 }
 ```
 
 ````html
+<!doctype html>
 <html>
   <body>
     <div class="fullheight">
