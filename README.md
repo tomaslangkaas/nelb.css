@@ -37,7 +37,7 @@ html, body, .fullheight{
 .inlineblock{
   display: inline-block;
   zoom: 1; /* trigger hasLayout in old IE */
-  *display: inline; /* star hack requierd for block elements in old IE */
+  *display: inline; /* star hack required for block elements in old IE */
 }
 
 .width10{
@@ -88,7 +88,7 @@ html, body, .fullheight{
 .inlineblock{
   display: inline-block;
   zoom: 1; /* trigger hasLayout in old IE */
-  *display: inline; /* star hack requierd for block elements in old IE */
+  *display: inline; /* star hack required for block elements in old IE */
 }
 
 html, body, .fullheight{
