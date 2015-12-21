@@ -26,3 +26,29 @@ html, body, .fullheight{
 </html>
 ```
 
+### Full viewport height
+
+* Requires height to be set on `<html>` and `<body>`
+* Requires element with class `fullheight` to be a child of `<body>`
+* IE6+
+* See [Understanding the `HTML` versus `BODY` Element in CSS](http://phrogz.net/css/htmlvsbody.html)
+
+```css
+.inlineblock{
+	display: inline-block;
+	zoom: 1;
+  *display: inline;
+}
+```
+
+````html
+<!doctype html>
+<html>
+  <body>
+    <div class="fullheight">
+      This div fills the viewport.
+    </div>
+  </body>
+</html>
+```
+
