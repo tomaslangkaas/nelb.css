@@ -15,7 +15,7 @@ html, body, .fullheight{
 }
 ```
 
-````html
+```html
 <!doctype html>
 <html>
   <body>
@@ -25,6 +25,7 @@ html, body, .fullheight{
   </body>
 </html>
 ```
+
 
 ### Inline block
 
@@ -53,7 +54,7 @@ html, body, .fullheight{
 }
 ```
 
-````html
+```html
 <!doctype html>
 <html>
   <body>
@@ -97,7 +98,7 @@ html, body, .fullheight{
 }
 ```
 
-````html
+```html
 <!doctype html>
 <html>
   <body>
@@ -135,7 +136,7 @@ html, body, .fullheight{
 }
 ```
 
-````html
+```html
 <!doctype html>
 <html>
   <body>
@@ -173,7 +174,7 @@ html, body, .fullheight{
 }
 ```
 
-````html
+```html
 <!doctype html>
 <html>
   <body>
